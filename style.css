@@ -1,0 +1,36 @@
+body {
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    width: 70%;
+}
+
+ul button {
+    border-radius: 30px !important;
+    margin: 5px !important;
+}
+
+ul li {
+    background: rgba(0, 0, 0, 0.432);
+    border-radius: 50px;
+    color: honeydew;
+    margin: 5px 0;
+}
+
+.msgbox {
+    background: rgb(136, 136, 136);
+    height: 500px;
+    width: 50%;
+    overflow-y: scroll;
+}
+
+.msgbox h1 {
+    background: black;
+    color: wheat;
+}
+
+.sendbox {
+    width: 50%;
+}

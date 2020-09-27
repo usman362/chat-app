@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="Css/login.css">
+  
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-auth.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-analytics.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyDIUXeJY3HFYKJhsyXOimtCdYYSBskiCOk",
+          authDomain: "react-chatapp-6013a.firebaseapp.com",
+          databaseURL: "https://react-chatapp-6013a.firebaseio.com",
+          projectId: "react-chatapp-6013a",
+          storageBucket: "react-chatapp-6013a.appspot.com",
+          messagingSenderId: "857696565734",
+          appId: "1:857696565734:web:00dc97adebed82f4b0be27",
+          measurementId: "G-CHXRWPGL7E"
+        };
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+      </script>
+
+</head>
+
+<body>
+  <div class="container">
+        <div class="row mx-auto d-flex justify-content-center mt-5 ">        
+              <div class="col-md-8 col-lg-8">
+               <div class="row">
+                 <div class="col col-md-9">
+                  <div class="card" style="width:500px;">
+                   
+                  <div class="row mx-auto justify-content-center">
+                    <div class="col-11 col-md-12">
+                      <h1 class="text-center">Welcome to Chat App</h1>
+                  </div>            
+                </div>
+                <div class="row">
+                  <div class="col-6 col-md-6 mx-auto">
+                    <button class="btn btn-primary" onclick="facebook_login()"> Login with Facebook</button>
+                  </div>
+                </div>
+               
+                  </div>
+  
+                 </div>
+               </div>
+      
+    </div>
+
+
+
+   <script src="login.js"></script>
+   <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
