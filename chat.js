@@ -45,7 +45,6 @@ firebase.database().ref("messages").on("child_removed", function(snapshot) {
     document.getElementById("message-" + snapshot.key).innerHTML = "This message has been removed";
 });
 
-
 function login(){
     var provider = new firebase.auth.FacebookAuthProvider();
     
